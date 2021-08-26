@@ -113,4 +113,27 @@ img {
     max-width: 950px;
     height: 420px;
   }
+  .supervisor-card,
+  .team-builder-card,
+  .karma-card,
+  .calculator-card {
+    position: absolute;
+    display: inline-block;
+    min-width: 30%;
+    width: 30%;
+    height: 100%;
+    max-height: 180px;
+  }
+  .supervisor-card {
+    left: 0;
+  }
+  .team-builder-card {
+    top: 0;
+  }
+  .karma-card {
+    bottom: 0;
+  }
+  .calculator-card {
+    right: 0;
+  }
 }
