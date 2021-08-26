@@ -91,3 +91,26 @@ img {
   width: 250px;
   height: 160px;
 }
+
+@media screen and (min-width: 600px) {
+  .text-card {
+    max-width: unset;
+  }
+  .title {
+    max-width: 300px;
+  }
+  .paragraph {
+    color: var(--neutral-color);
+    width: 100%;
+    max-width: 480px;
+  }
+  .cards-content {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 950px;
+    height: 420px;
+  }
+}
