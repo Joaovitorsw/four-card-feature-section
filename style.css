@@ -1,9 +1,17 @@
 :root {
-  --primary-color: hsl(0, 78%, 62%);
-  --secondary-color: hsl(180, 62%, 55%);
+  --primary-color: hsl(180, 62%, 55%);
+  --secondary-color: hsl(0, 78%, 62%);
   --tertiary-color: hsl(34, 97%, 64%);
   --quaternary-color: hsl(212, 86%, 64%);
   --neutral-color: hsl(229, 6%, 66%);
   --neutral-color-dark: hsl(234, 12%, 34%);
   --neutral-color-light: hsl(0, 0%, 98%);
+}
+
+body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
